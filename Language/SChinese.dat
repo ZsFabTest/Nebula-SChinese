@@ -396,11 +396,11 @@
 "options.role.doctor.chargesPerTasks" : "每完成一个任务追加充能数" 
 "role.doctor.gadgetLeft" : "%SECOND%秒"
 
-"role.justice.name" : "大法官"
-"role.justice.short" : "法"
+"role.justice.name" : "天秤座"
+"role.justice.short" : "秤"
 "role.justice.blurb" : "实现正义"
 "options.role.justice.detail" : "可以让两名玩家上天平<br>，并开始召开特别会议。"
-"options.role.justice.putJusticeOnTheBalance" : "强制将大法官放上审判天平"
+"options.role.justice.putJusticeOnTheBalance" : "强制将天秤座放上审判天平"
 "options.role.justice.justiceMeetingTime" : "审判会议时间"
 
 "role.madmate.name" : "叛徒"
@@ -1746,7 +1746,7 @@
 
 "role.justice.ability.title" : "能力 <b>审判会议</b>"
 "role.justice.ability.main" : "会议中在使用技能后<var>#NUM</var>人#PICKME会被迫参加<b>审判会议</b>。<br>审判会议的触发会回收原会议上所有的投票。<br>若两人票数相同<b>2人同时被驱逐且不显示职业</b>。"
-"role.justice.ability.pickJustice" : "、<var>和大法官</var>"
+"role.justice.ability.pickJustice" : "、<var>和天秤座</var>"
 "role.justice.ability.meeting" : "会议期间若没有使用过技能，玩家图标上方将覆盖此图层。<br>点击图标以设置审判对象。"
 "role.justice.tips" : "・这个职业与<color=#ff7f00>超</color><color=#ff0000>新</color><color=#00ff00>职业</color>进行联动(原职业: 天秤)。"
 
