@@ -37,7 +37,7 @@
 "ui.update.finishUpdate" : "更新完成！<br>请重启游戏。"
 "ui.update.autoUpdate" : "自动更新已启用."
 "ui.document.tooLongNesting" : "[嵌套太长了。]"
-"ui.citation.openUrl" : "点击打开连接"
+"ui.citation.openUrl" : "点击打开链接"
 "ui.meeting.leftClick" : "左键使用"
 "ui.meeting.rightClick": "右键切换"
 "ui.configuration.click" : "左键打开配置<br>右键复制角色总结"
