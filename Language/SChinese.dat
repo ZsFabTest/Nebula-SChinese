@@ -111,7 +111,7 @@
 "version.fetching.setAutoUpdate" : "启用"
 "version.fetching.current" : "当前"
 "version.fetching.mismatched" : "不可用"
-"version.fetching.applied" : "当前"
+"version.fetching.applied" : "应用"
 
 # Game Mode
 
@@ -287,7 +287,7 @@
 "role.general.ventUses.short" : "使用次数"
 
 "role.category.crewmate" : "船员阵营"
-"role.category.impostor" : "内鬼阵营"
+"role.category.impostor" : "伪装者阵营"
 "role.category.neutral" : "中立阵营"
 "role.category.ghost" : "鬼魂职业"
 "role.category.modifier" : "附加职业"
@@ -856,6 +856,7 @@
 
 "role.guesser.name" : "赌怪"
 "role.guesser.generalBlurb" : "<color=#ffff00ff>生命就是豪赌</color>"
+"role.guesser.blurb" : "生命就是豪赌"
 
 "role.metaRole.name" : "自由模式"
 
@@ -904,7 +905,7 @@
 "options.role.obsessional.canWinEvenIfObsessionalTargetDie" : "即使目标死亡也能获胜"
 "options.role.obsessional.canWinEvenIfObsessionalDie" : "死亡后仍可以获胜"
 "options.role.obsessional.obsessionalSuicideWhenObsessionalTargetDie" : "目标死亡时自杀"
-"options.role.obsessional.impostorObsessionalObsessesOver" : "当伪装者分配到该附加时 目标为："
+"options.role.obsessional.impostorObsessionalObsessesOver" : "当伪装者分配到该附加时 目标为"
 "options.role.obsessional.impostorObsessionalObsessesOver.default" : "默认分配"
 "options.role.obsessional.impostorObsessionalObsessesOver.neutralOnly" : "仅中立阵营"
 "options.role.obsessional.impostorObsessionalObsessesOver.nonCrewmate" : "非船员阵营"
@@ -917,7 +918,7 @@
 "role.secretInGame.short" : "?"
 "role.secretInGame.blurb" : "觉醒后才能获得真正的职业"
 "options.role.secret.detail" : "需要完成一定任务才能知晓自己的职业。<br>完成一定的任务或杀死一定的玩家数此乃觉醒。"
-"options.role.secret.impostorArousalMethod" : "内鬼唤醒方法"
+"options.role.secret.impostorArousalMethod" : "伪装者唤醒方法"
 "options.role.secret.impostorArousalMethod.kill" : "击杀"
 "options.role.secret.impostorArousalMethod.death" : "伪装者减员"
 "options.role.secret.killingForArousal" : "觉醒所需击杀数"
@@ -1153,7 +1154,7 @@
 # Endings
 
 "end.crewmate" : "船员胜利%EXTRA%"
-"end.impostor" : "内鬼胜利%EXTRA%"
+"end.impostor" : "伪装者胜利%EXTRA%"
 "end.arsonist" : "纵火犯获胜%EXTRA%"
 "end.dancer" : "舞者<color=#FFFFFF>和幽灵</color>胜利%EXTRA%"
 "end.jackal" : "豺狼阵营胜利%EXTRA%"
@@ -1166,6 +1167,7 @@
 
 "end.extra.lover" : " <color=#FFFFFF>+</color>恋人胜利"
 "end.extra.obsessional" : " <color=#FFFFFF>+</color>暗恋者胜利"
+"end.extra.grudge" : " <color=#FFFFFF>+</color>怨灵胜利"
 
 # Help
 
@@ -1521,14 +1523,14 @@
 "roleFilter.categorySeparator" : "; "
 "roleFilter.exceptPattern.all" : "除了%ROLES%之外"
 "roleFilter.exceptPattern.crewmate" : "船员除外 %ROLES%"
-"roleFilter.exceptPattern.impostor" : "内鬼除外 %ROLES%"
+"roleFilter.exceptPattern.impostor" : "伪装者除外 %ROLES%"
 "roleFilter.exceptPattern.neutral" : "中立除外 %ROLES%"
 "roleFilter.allPattern.all" : "所有"
 "roleFilter.allPattern.crewmate" : "所有船员"
-"roleFilter.allPattern.impostor" : "所有内鬼"
+"roleFilter.allPattern.impostor" : "所有伪装者"
 "roleFilter.allPattern.neutral" : "所有中立"
 "roleFilter.shortcut.all" : "所有"
-"roleFilter.shortcut.allImpostor" : "内鬼阵营"
+"roleFilter.shortcut.allImpostor" : "伪装者阵营"
 "roleFilter.shortcut.allNeutral" : "中立阵营"
 "roleFilter.shortcut.allCrewmate" : "船员阵营"
 "roleFilter.showOnlySpawnable" : "只显示可生成的角色"
@@ -2116,7 +2118,7 @@
 "achievement.seer.common1.cond" : ""
 
 "achievement.seer.challenge2.title" : "唯一的真理"
-"achievement.seer.challenge2.goal" : "在所有人都投票的情况下，只有自己投给非船员阵营。"
+"achievement.seer.challenge2.goal" : "在所有人都投票的情况下自己全部投给非船员阵营。"
 "achievement.seer.challenge2.cond" : "条件：弃票、不投票都不算，必须要连续三回合以上。"
 
 "achievement.sheriff.common1.title" : "正直的警长"
