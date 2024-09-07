@@ -17,14 +17,14 @@
 "certification.uncertified.detail" : "该玩家未安装星云舰"
 "certification.uncertified.client" : "你已安装星云舰<br>请不要进入原版房间"
 "certification.unmatchedEpoch" : "版本冲突"
-"certification.unmatchedEpoch.detail" : "该玩家安装的星云舰版本与你的不同。<br>将你的版本复制给他们或者让他们去<b>GitHub</b>下载相同的版本。"
-"certification.unmatchedEpoch.client" : "主持人安装的星云舰版本与你不同。<br>试试询问主持人更换或者去<b>GitHub</b>下载相同的版本！"
-"certification.unmatchedBuild" : "构建冲突"
-"certification.unmatchedBuild.detail" : "该玩家安装的星云舰版本与你的不是同一种，可能是其他分支。<br>将你的版本复制给他们或者让他们下载你当前<b>游戏程序标题</b>相同的版本。"
-"certification.unmatchedBuild.client" : "主持人安装的星云舰版本与你不是同一种，可能是其他分支。<br>试试询问主持人更换或者去<b>游戏程序标题</b>下载相同的版本！"
-"certification.unmatchedAddon" : "插件冲突"
-"certification.unmatchedAddon.detail" : "该玩家安装的附加插件与你不同或缺失<br>请让所有人使用相同的插件"
-"certification.unmatchedAddon.client" : "该插件与主持人不同或未安装<br>请让所有人使用相同的插件"
+"certification.unmatchedEpoch.detail" : "该玩家安装的星云舰版本与你的不同，可能是其他分支。<br>将你的版本复制给他们或者让他们去<b>GitHub</b>下载相同的版本。"
+"certification.unmatchedEpoch.client" : "主持人安装的星云舰版本与你不同，可能是其他分支。<br>试试询问主持人更换或者去<b>GitHub</b>下载相同的版本！"
+"certification.unmatchedBuild" : "次版本冲突"
+"certification.unmatchedBuild.detail" : "该玩家安装的星云舰版本与你的不同。<br>将你的版本复制给他们或者让他们下载你当前<b>游戏程序标题</b>相同的版本。"
+"certification.unmatchedBuild.client" : "主持人安装的星云舰版本与你不同。<br>试试询问主持人更换或者去<b>游戏程序标题</b>下载相同的版本！"
+"certification.unmatchedAddon" : "Addons冲突"
+"certification.unmatchedAddon.detail" : "该玩家安装的附加插件与你不同或缺失。<br>请让所有人使用相同的Addons."
+"certification.unmatchedAddon.client" : "该插件与主持人不同或未安装。<br>请让所有人使用相同的Addons."
 
 # UI
 
@@ -94,7 +94,8 @@
 "ui.action.paparazzo.toggle" : "改变镜头方向"
 "ui.action.mouseClick" : "点击玩家附近的可交互物体也可触发操作"
 "ui.action.danceAction" : "左右移动以解锁技能"
-"ui.action.cannon.mark" : "打开地图并发射空气炮。"
+"ui.action.cannon.mark" : "设置空气炮打击位置"
+"ui.action.cannon.cannon" : "打开发射空气炮的地图"
 
 # Versions
 
@@ -347,15 +348,6 @@
 "options.role.busker.pseudocideDuration" : "假死持续时间"
 "options.role.busker.hidePseudocideFromVitals" : "从生命体征中隐藏伪装"
 
-"role.cannon.name" : "二营长"
-"role.cannon.short" : "营"
-"role.cannon.blurb" : "炸飞他们!"
-"options.role.cannon.detail" : "二营长的加农炮能炸飞玩家"
-"options.role.cannon.markCoolDown" : "标记冷却"
-"options.role.cannon.numOfMarks" : "# 可同时放置标记"
-"options.role.cannon.cannonPower" : "加农炮威力"
-"options.role.cannon.cannonPowerAttenuation" : "加农炮威力衰减速度"
-
 "role.collator.name" : "基因学家"
 "role.collator.short" : "基"
 "role.collator.blurb" : "化验样本"
@@ -554,6 +546,15 @@
 "options.role.camouflager.camoDuration" : "隐蔽持续时间"
 "options.role.camouflager.canInvokeCamoAfterDeath" : "死亡后仍可以使用技能"
 
+"role.cannon.name" : "二营长"
+"role.cannon.short" : "营"
+"role.cannon.blurb" : "炸飞他们!"
+"options.role.cannon.detail" : "二营长的加农炮能炸飞玩家。"
+"options.role.cannon.markCoolDown" : "标记冷却"
+"options.role.cannon.numOfMarks" : "# 可同时放置标记"
+"options.role.cannon.cannonPower" : "加农炮威力"
+"options.role.cannon.cannonPowerAttenuation" : "加农炮威力衰减速度"
+
 "role.cleaner.name" : "清理者"
 "role.cleaner.short" : "清"
 "role.cleaner.blurb" : "杀人不留痕迹"
@@ -621,7 +622,7 @@
 
 "role.hadar.name" : "潜伏者"
 "role.hadar.short" : "潜"
-"role.hadar.blurb" : "爬行的黑暗”
+"role.hadar.blurb" : "爬行的黑暗"
 "options.role.hadar.detail" : "潜伏者可以在地下自由移动。<br>其他玩家看不到地下的潜伏者。"
 "options.role.hadar.diveCooldown" : "潜伏冷却"
 "options.role.hadar.accelRateUnderground" : "地下速度倍率"
@@ -729,6 +730,7 @@
 
 "role.avenger.name" : "复仇者"
 "role.avenger.short" : "复"
+"role.avenger.blurb" : "是时候复仇了"
 "options.role.avenger.detail" : "实现复仇，夺取胜利。"
 "options.role.avenger.killCoolDown" : "击杀冷却时间"
 "options.role.avenger.canKnowExistanceOfAvenger" : "得知复仇者存在"
@@ -772,6 +774,8 @@
 
 "role.sidekick.name" : "跟班"
 "role.sidekick.short" : "跟"
+"role.sidekick.blurb" : "跟随豺狼胜利"
+"role.sidekick.generalBlurb" : "跟随豺狼胜利"
 "options.role.sidekick.detail" : "豺狼死亡后，你会成为新的豺狼。"
 "options.role.sidekick.canKill" : "可以击杀"
 "options.role.sidekick.killCoolDown" : "击杀冷却时间"
@@ -913,7 +917,7 @@
 
 "role.secret.name" : "觉醒者"
 "role.secret.short" : "?"
-"role.secret.blurb" : "觉醒后才能获得真正的职业"
+"role.secret.generalBlurb" : "觉醒后才能获得真正的职业"
 "role.secretInGame.name" : "???"
 "role.secretInGame.short" : "?"
 "role.secretInGame.blurb" : "觉醒后才能获得真正的职业"
@@ -1036,6 +1040,7 @@
 "button.label.blaze" : "冲刺"
 "button.label.callBack" : "召回"
 "button.label.camo" : "隐蔽"
+"button.label.cannon" : "发射"
 "button.label.clean" : "清理"
 "button.label.destroy" : "摧毁木偶"
 "button.label.disturb" : "干扰"
@@ -1635,6 +1640,11 @@
 "role.camouflager.doc.main" : "开启隐蔽后大家都是一样的,趁机出手。"
 "role.camouflager.doc.camoButton" : "- F : 隐蔽"
 
+"role.cannon.ability.title" : "固有能力 <b>"空气炮"</b>"
+"role.cannon.ability.main" : "通过空气炮将周围的玩家击飞。"
+"role.cannon.ability.mark" : "标记空气炮落点。<br>标记后在空气炮地图上可见"
+"role.cannon.ability.cannon" : "打开发射空气炮的地图。"
+
 "role.cleaner.doc.main" : "清理者可以让场上的尸体消失。"
 "role.cleaner.doc.cleanButton" : "- F : 清理尸体"
 "role.cleaner.doc.syncCoolDown" : "当关闭<b>清理与击杀共用冷却时间</b>时，技能与击杀有自己的独立冷却时间。"
@@ -1878,7 +1888,7 @@
 
 "achievement.agent.common1.title" : "打工人的日常"
 "achievement.agent.common1.goal" : "一局完成8个以上的任务，并任务胜利。"
-"achievement.agent.common1.cond" : "条件：免除自身3以下的任务+任务总量"
+"achievement.agent.common1.cond" : "免除自身3以下的任务+任务总量"
 
 "achievement.agent.another1.title" : "失业"
 "achievement.agent.another1.goal" : "由于其他船员在代理人之前完成了任务，代理人自杀。"
@@ -1891,7 +1901,7 @@
 
 "achievement.agent.challenge.title" : "完美船员"
 "achievement.agent.challenge.goal" : "完成5个以上的代理任务，并任务胜利。"
-"achievement.agent.challenge.cond" : "条件：免除自身3以下的任务"
+"achievement.agent.challenge.cond" : "免除自身3以下的任务"
 
 "achievement.bait.common1.title" : "诱人中带一丝危险"
 "achievement.bait.common1.goal" : "被击杀然后强制让凶手报告。"
@@ -1911,7 +1921,7 @@
 
 "achievement.busker.challenge.title" : "医学奇迹"
 "achievement.busker.challenge.goal" : "假死并且复活后在两秒内发起报告。"
-"achievement.busker.challenge.cond" : "条件：报告自身尸体跟使用紧急按钮不算"
+"achievement.busker.challenge.cond" : "报告自身尸体跟使用紧急按钮不算"
 "achievement.busker.challenge.flavor" : ""その緊張感は、私の良く知っているそれによく似ている。" ―署名の無い回顧録"
 
 "achievement.collator.common3.title" : "有趣的结果"
@@ -1954,7 +1964,7 @@
 
 "achievement.comet.common3.title" : "光速彗星"
 "achievement.comet.common3.goal" : "使用技能移动45米以上。"
-"achievement.comet.common3.cond" : "条件：技能持续时间：15秒以下+速度倍率：2.5倍以下"
+"achievement.comet.common3.cond" : "技能持续时间：15秒以下+速度倍率：2.5倍以下"
 "achievement.comet.common3.flavor" : ""君はあらゆる容疑を背負ってくるね" ―破られた議事録より"
 
 "achievement.comet.challenge.title" : "不可见的目击者"
@@ -1967,7 +1977,7 @@
 
 "achievement.doctor.challenge.title" : "冷漠的医护人员"
 "achievement.doctor.challenge.goal" : "在使用便携式生命监测装置时看到死亡的瞬间。"
-"achievement.doctor.challenge.cond" : "条件：初始时间在10秒以下+任务充能2秒以下"
+"achievement.doctor.challenge.cond" : "初始时间在10秒以下+任务充能2秒以下"
 "achievement.doctor.challenge.flavor" : ""白い天井に、無機質な音" ―戦場の独白"
 
 "achievement.justice.common1.title" : "审判者"
@@ -2021,12 +2031,12 @@
 
 "achievement.mayor.common1.title" : "这就是独裁"
 "achievement.mayor.common1.goal" : "使用自己的能力将其他玩家票出。"
-"achievement.mayor.common1.cond" : "条件：必须是自己票的玩家"
+"achievement.mayor.common1.cond" : "必须是自己票的玩家"
 "achievement.mayor.common1.flavor" : ""あなたの意見に賛同したわけではないのですが、しかし..." ―破られた議事録より"
 
 "achievement.mayor.another1.title" : "全都听我的"
 "achievement.mayor.another1.goal" : "投票并让目标放逐。"
-"achievement.mayor.another1.cond" : "条件：3次会议以上"
+"achievement.mayor.another1.cond" : "3次会议以上"
 
 "achievement.mayor.common2.title" : "我很神秘"
 "achievement.mayor.common2.goal" : "从第一次会议开始，连续三次以上只投一票，隐藏市长的存在。"
@@ -2034,7 +2044,7 @@
 
 "achievement.mayor.challenge.title" : "真正正直的市长"
 "achievement.mayor.challenge.goal" : "仅用自己的选票将一名敌方玩家放逐。"
-"achievement.mayor.challenge.cond" : "条件：小丑不算"
+"achievement.mayor.challenge.cond" : "小丑不算"
 "achievement.mayor.challenge.flavor" : "君に選択の余地はない。"
 
 "achievement.necromancer.common1.title" : "秽土转生"
@@ -2119,7 +2129,7 @@
 
 "achievement.seer.challenge2.title" : "唯一的真理"
 "achievement.seer.challenge2.goal" : "在所有人都投票的情况下自己全部投给非船员阵营。"
-"achievement.seer.challenge2.cond" : "条件：弃票、不投票都不算，必须要连续三回合以上。"
+"achievement.seer.challenge2.cond" : "弃票、不投票都不算，必须要连续三回合以上。"
 
 "achievement.sheriff.common1.title" : "正直的警长"
 "achievement.sheriff.common1.goal" : "成功执法。"
@@ -2140,7 +2150,7 @@
 
 "achievement.sheriff.challenge.title" : "完美的执法者"
 "achievement.sheriff.challenge.goal" : "用自己的能力淘汰敌人。"
-"achievement.sheriff.challenge.cond" : "条件：击杀2名以上的敌人。"
+"achievement.sheriff.challenge.cond" : "击杀2名以上的敌人。"
 
 "achievement.ubiquitous.common1.title" : "大门破坏者"
 "achievement.ubiquitous.common1.goal" : "在一局游戏中打开5次门。"
@@ -2153,7 +2163,7 @@
 
 "achievement.ubiquitous.challenge.title" : "泛在网络"
 "achievement.ubiquitous.challenge.goal" : "在地图上确认所有存活玩家的位置。"
-"achievement.ubiquitous.challenge.cond" : "条件：除自身以外10人以上+检测范围3米以内"
+"achievement.ubiquitous.challenge.cond" : "除自身以外10人以上+检测范围3米以内"
 
 "achievement.alien.common1.title" : "外星礼品"
 "achievement.alien.common1.goal" : "E.M.I.技能期间击杀一人。"
@@ -2200,6 +2210,30 @@
 "achievement.camouflager.challenge.goal" : "在技能期间，出现4次以上的凶案。"
 "achievement.camouflager.challenge.cond" : ""
 "achievement.camouflager.challenge.flavor" : ""見識作業は困難を極めていた。" ―署名の無い回顧録"
+
+"achievement.cannon.common3.title" : "启动！"
+"achievement.cannon.common3.goal" : "发射空气炮。"
+"achievement.cannon.common3.cond" : ""
+
+"achievement.cannon.common1.title" : "注意头顶！"
+"achievement.cannon.common1.goal" : "在飞行结束时立即杀死遇到的玩家。"
+"achievement.cannon.common1.cond" : "二营长在3秒内击杀并落地"
+
+"achievement.cannon.common2.title" : "散射"
+"achievement.cannon.common2.goal" : "通过空气炮击飞伪装者。"
+"achievement.cannon.common2.cond" : "击飞5人以上+击飞一名除自身外的伪装者"
+
+"achievement.cannon.another1.title" : "纳尼？情报是假的！"
+"achievement.cannon.another1.goal" : "发射空气炮但没有击飞任何人。"
+"achievement.cannon.another1.cond" : ""
+
+"achievement.cannon.another2.title" : "我一定会回来的！"
+"achievement.cannon.another2.goal" : "船员在任务中被击飞中断并飞行10米以上。"
+"achievement.cannon.another2.cond" : ""
+
+"achievement.cannon.challenge.title" : "飞行事故"
+"achievement.cannon.challenge.goal" : "所有在本回合内被空气炮击飞的玩家由于不同原因在本回合内死亡。"
+"achievement.cannon.challenge.cond" : "击飞三人及以上+会议放逐、追加放逐也计入该成就"
 
 "achievement.cleaner.common1.title" : "干干净净"
 "achievement.cleaner.common1.goal" : "清理一次尸体。"
@@ -2411,7 +2445,7 @@
 
 "achievement.sniper.challenge.title" : "专业狙击手"
 "achievement.sniper.challenge.goal" : "狙杀两名20米以外的玩家。"
-"achievement.sniper.challenge.cond" : "条件：有效射程在20x以上"
+"achievement.sniper.challenge.cond" : "有效射程在20x以上"
 
 "achievement.stirrer.common1.title" : "是真是假"
 "achievement.stirrer.common1.goal" : "制造一场虚假的破坏"
@@ -2419,7 +2453,7 @@
 
 "achievement.stirrer.challenge.title" : "七星夺窍术"
 "achievement.stirrer.challenge.goal" : "同时对7名玩家造成假破坏效果"
-"achievement.stirrer.challenge.cond" : "条件：破坏任务3个以下且施幻冷却在10秒以上"
+"achievement.stirrer.challenge.cond" : "破坏任务3个以下且施幻冷却在10秒以上"
 
 "achievement.arsonist.common1.title" : "有汽油味道的会议"
 "achievement.arsonist.common1.goal" : "3个以上被涂油的玩家活着参加会议"
@@ -2498,7 +2532,7 @@
 
 "achievement.jackal.challenge.title" : "腥风血雨的战斗"
 "achievement.jackal.challenge.goal" : "只剩下豺狼与跟班并且获胜"
-"achievement.jackal.challenge.cond" : "条件：必须杀死最后一名玩家"
+"achievement.jackal.challenge.cond" : "必须杀死最后一名玩家"
 "achievement.jackal.challenge.flavor" : ""熱い戦いをしようじゃないか" ―破られた議事録より"
 
 "achievement.sidekick.common1.title" : "升官"
@@ -2547,7 +2581,7 @@
 
 "achievement.paparazzo.challenge.title" : "舆论制造者与键盘侠"
 "achievement.paparazzo.challenge.goal" : "在会议中公开一张照片，因某种原因使4名以上的玩家死亡。"
-"achievement.paparazzo.challenge.cond" : "条件：自身死亡不算。"
+"achievement.paparazzo.challenge.cond" : "自身死亡不算。"
 "achievement.paparazzo.challenge.flavor" : ""これは呪われた記事だ。すぐに処分せねばなるまい。" ―破られた議事録より"
 
 "achievement.vulture.common1.title" : "真是美味啊！"
@@ -2795,7 +2829,7 @@
 
 "achievement.koinobori.title" : "自由的方向"
 "achievement.koinobori.goal" : "恋人自由奔跑。"
-"achievement.koinobori.cond" : "五月限定+恋人两人同时拥有<br>加速效果</br>+<br>5秒内</br>两人一起移动+MIRA HQ, Airship限定"
+"achievement.koinobori.cond" : "五月限定+恋人两人同时拥有<b>加速效果</b>+<b>5秒内</b>两人一起移动+MIRA HQ, Airship限定"
 
 "achievement.rainyStep.title" : "雨中散步"
 "achievement.rainyStep.goal" : "在受到减速的情况下继续走动。"
@@ -2822,7 +2856,7 @@
 
 "achievement.challenge.impostor.title" : "完美的入侵"
 "achievement.challenge.impostor.goal" : "所有伪装者都存活，并且获胜。"
-"achievement.challenge.impostor.cond" : "条件：自己要杀死2个以上的玩家"
+"achievement.challenge.impostor.cond" : "自己要杀死2个以上的玩家"
 
 "achievement.challenge.lastCrewmate.title" : "极限生存"
 "achievement.challenge.lastCrewmate.goal" : "作为最后的船员存活并胜利。"
@@ -2834,7 +2868,7 @@
 
 "achievement.noCrewmate.title" : "胜利倒计时"
 "achievement.noCrewmate.goal" : "在全体船员死亡的状态下任务胜利。"
-"achievement.noCrewmate.cond" : "条件：自己属于船员阵营且不是叛徒（叛徒不计入船员阵营）。"
+"achievement.noCrewmate.cond" : "自己属于船员阵营且不是叛徒（叛徒不计入船员阵营）。"
 
 "achievement.challenge.crewmate.title" : "寂静的世界"
 "achievement.challenge.crewmate.goal" : "所有人都存活，然后任务获胜。"
@@ -2850,7 +2884,7 @@
 
 "achievement.doTaskEvenDead.title" : "打工魂"
 "achievement.doTaskEvenDead.goal" : "死亡状态下完成所有任务。"
-"achievement.doTaskEvenDead.cond" : "条件：8个以上的任务"
+"achievement.doTaskEvenDead.cond" : "8个以上的任务"
 
 "achievement.noMeeting.title" : "长夜一梦"
 "achievement.noMeeting.goal" : "不召开会议就胜利。"
