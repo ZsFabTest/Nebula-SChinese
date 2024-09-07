@@ -877,6 +877,7 @@
 
 "role.damned.name" : "受诅咒者"
 "role.damned.short" : "受诅"
+"role.damned.blurb" : "身负诅咒的人"
 "role.damned.generalBlurb" : "身负诅咒的人"
 "options.role.damned.detail" : "拥有受诅咒者的带刀玩家下一刀是无效的。"
 "role.damned.prefix" : "受诅咒的 "
